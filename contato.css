@@ -9,6 +9,31 @@ body h1, h2 , h3{
         font-family: Sofia, serif;
         font-weight: 300;
       }
-h3{
-    display:flex;
+      .menu {
+        position: fixed;
+        top: 0%;
+        width: 100%;
+        margin-top: 0em;
+        background: rgb(238, 175, 175);
+      }
+      .menu ul{
+        display: flex;
+        flex-direction:row;
+        justify-content: space-around;
+      }
+      .menu li{
+        list-style: none;
+      }
+      a{
+        text-decoration: none;
+        color:rgb(255, 255, 255)
+      }
+      a:visited{
+        text-decoration: dotted;
+      }
+      a:hover{
+        text-decoration: underline;
+      }
+.hr{
+  color: brown;
 }
