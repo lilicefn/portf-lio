@@ -1,0 +1,21 @@
+h1{
+  color: white;
+  text-shadow: rgb(150, 33, 33) 0.1em 0.1em 0.2em;
+}
+  body {
+    background-image:url("rosa.jpg");
+  }
+  body h1, h2 {
+    font-family: Sofia, serif;
+    font-weight: 300;
+  }
+  h2 {
+    background: rgb(247, 197, 197);
+    opacity: 1;
+    border: 1px solid rgb(233, 106, 106);
+    padding: 10px;
+    box-shadow: 5px 10px rgb(233, 106, 106);
+  }
+  h3{
+    object-fit: fill;
+  }

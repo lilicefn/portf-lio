@@ -1,15 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel = "stylesheet" href="style.css">
-    <title>Portfólio Alice</title>
-</head>
-<body>
-  <h1><P ALIGN=center><FONT COLOR= "Chocolate"><FONT FACE="Century Gothic">Portfólio Alice</P></FONT></FONT></h1>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+  <title>Portfólio Alice</title>
+</head> 
+
+<body> 
+  <h1>
+    <P ALIGN=center>
+      <FONT COLOR="White">
+        Portfólio Alice
+    </P>
+      </FONT>
+  </h1>
   <h2>
-    <nav>
+    <header> <!--Cabeçalho-->
+      <nav class="menu"> <!--Navegação-->
         <ul>
           <li><a href="a">Início</li>
           <li><a href="a">Sobre</li>
@@ -17,6 +27,7 @@
           <li><a href="a">Contato</li>
         </ul>
       </nav>
+    </header>
   </h2>
 </body>
 </html>

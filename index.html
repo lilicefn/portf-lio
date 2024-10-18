@@ -9,12 +9,10 @@
   <title>Portfólio Alice</title>
 </head> 
 
-<body> 
-  <search>
-    <form>
-     <input name="fsrch" id="fsrch" placeholder="Procurar">
-    </form>
-  </search>
+<body>
+  <element class="topnav">
+    <input type="text" placeholder="Procurar...">
+  </element> 
   <h1>
     <P ALIGN=center>
       <FONT COLOR="White">
@@ -27,12 +25,31 @@
       <nav class="menu"> <!--Navegação-->
         <ul>
           <li><a href="a">Início</li>
-          <li><a href="a">Sobre</li>
+          <li><a href="sobre.html">Sobre</li>
           <li><a href="a">Projetos</li>
-          <li><a href="a">Contato</li>
+          <li><a href="contato.html">Contato</li>
         </ul>
-      </nav>
-    </header>
   </h2>
+      </nav>
+  <div>
+      <img src="Sanrio_Characters_Wish_me_mell_Image010.png">
+  </div>
+    </header>
+    <div class="topnav">
+      <a href="a" class="active"></a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myLinks");
+        if (x.style.display === "block") {
+          x.style.display = "none";
+        } else {
+          x.style.display = "block";
+        }
+      }
+      </script>      
 </body>
 </html>
