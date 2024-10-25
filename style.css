@@ -1,17 +1,36 @@
-h2 {
-  background-color: rgb(238, 175, 175);
-  opacity: 1;
+@import url('https://fonts.googleapis.com/css2?family=Sofia&display=swap');
+h1{
+  color: white;
+   text-shadow: rgb(150, 33, 33) 0.1em 0.1em 0.2em;
+   font-size: 25px;
+   background-color: rgb(238, 175, 175);
+   position: fixed;
+   top: 0%;
+   width: 100%;
+   margin-top: 0em;
 }
-h1{color: white; text-shadow: rgb(150, 33, 33) 0.1em 0.1em 0.2em}
+h2{color: white;
+   text-shadow: rgb(150, 33, 33) 0.1em 0.1em 0.2em;
+   font-size: 50px;
+   margin-top: 3em;
+  }
 body {
-    background: LavenderBlush;
-    background-image: url("rosa.jpg");
+    background: url("assets/rosa.jpg");
     background-repeat: no-repeat;
     background-size: auto;
+    font-family: Sofia, cursive;
+    font-weight: 300;
   }
-  
 .menu {
-  background: rgb(238, 175, 175);
+  background-color: rgb(238, 175, 175);
+  opacity: 1;
+  border-color: 1px solid rgb(233, 106, 106);
+  padding: 0px;
+  box-shadow: 5px 10px rgb(233, 106, 106);
+  position: fixed;
+  top: 10%;
+  width: 100%;
+  margin-top: -2em;
 }
 .menu ul{
   display: flex;
@@ -31,34 +50,25 @@ a:visited{
 a:hover{
   text-decoration: underline;
 }
-
-h2 {
-  border: 1px solid rgb(233, 106, 106);
-  padding: 10px;
-  box-shadow: 5px 10px rgb(233, 106, 106);
-}
-body, h1, h2 {
-  font-family: Sofia, serif;
-  font-weight: 300;
-}
 div{
   max-width: 400px;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: flex-end;
+  margin-top: 45em;
 }
-.topnav a:hover {
-  color: rgb(255, 255, 255);
+div.insta{
+  display: flex;
+  flex-direction:row;
+  justify-content: space-around;
+  align-items: end;
+  margin-top: 1em;
+  margin-left: 1em;
 }
-.topnav input[type=text] {
-  float: right;
-  padding: 5px;
-  border: none;
-  margin-top: -30px;
-  margin-right: 20px;
-  font-size: 10px;
-  flex-direction: row;
-  position: relative;
-}
-.topnav input[type=text] {
-  color: #570a0a;
-  border: 1px solid rgb(233, 106, 106);
-  background-color: rgb(255, 236, 236);
+div.entrar{
+  display: flex;
+  flex-direction:row;
+  justify-content: space-around;
+  margin-top: 1em;
+  margin-left: 1em;
 }

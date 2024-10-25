@@ -1,51 +1,8 @@
-h1{
-  color: white;
-  text-shadow: rgb(150, 33, 33) 0.1em 0.1em 0.2em;
-}
-  body {
-    background-image:url("rosa.jpg");
-  }
-  body h1, h2 {
-    font-family: Sofia, serif;
-    font-weight: 300;
-  }
-  h2 {
-    background: rgb(247, 197, 197);
-    opacity: 1;
-    border: 1px solid rgb(233, 106, 106);
-    padding: 10px;
-    box-shadow: 5px 10px rgb(233, 106, 106);
-  }
-  h3{
-    object-fit: fill;
-  }
-  .menu {
-    position: fixed;
-    top: 0%;
-    width: 100%;
-    margin-top: 0em;
-    background: rgb(238, 175, 175);
-  }
-  .menu ul{
+div.insta{
     display: flex;
     flex-direction:row;
     justify-content: space-around;
-  }
-  .menu li{
-    list-style: none;
-  }
-  a{
-    text-decoration: none;
-    color:rgb(255, 255, 255)
-  }
-  a:visited{
-    text-decoration: dotted;
-  }
-  a:hover{
-    text-decoration: underline;
-  }
-  h2 {
-    border: 1px solid rgb(233, 106, 106);
-    padding: 10px;
-    box-shadow: 5px 10px rgb(233, 106, 106);
-  }
+    align-items: end;
+    margin-top: 1em;
+    margin-left: 1em;
+}
