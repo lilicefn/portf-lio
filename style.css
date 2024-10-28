@@ -19,7 +19,6 @@ h2{color: white;
   }
 body {
     background: url("assets/fundo.png");
-    background-repeat:repeat-y;
     background-size: cover;
   }
 .menu {
