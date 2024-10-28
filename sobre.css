@@ -6,3 +6,8 @@ div.insta{
     margin-top: 1em;
     margin-left: 1em;
 }
+h3.texto{
+    background-color: rgb(255, 255, 255, 0.4);
+    color:#4E2F2F;
+    font-weight: 400;
+}
