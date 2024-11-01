@@ -19,7 +19,8 @@ h2{color: white;
   }
 body {
     background-image: url("assets/fundo.png");
-    background-repeat: repeat-y;
+    background-size: 1350px;
+    background-repeat: repeat;
   }
 .menu {
   font-size: 15px;
@@ -69,6 +70,9 @@ div.insta{
   margin-left: 1em;
 }
 .curso{
-  display: flex;
-  justify-content: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  font-size: 30px;
 }
