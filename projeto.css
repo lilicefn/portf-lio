@@ -1,0 +1,13 @@
+div.trabalho{
+    background-color: rgb(255, 255, 255);
+    color: brown;
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px #dd9595;
+}
+.título{
+    margin:10px;
+}
+.link{
+    margin: 10px;
+}
