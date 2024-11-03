@@ -1,13 +1,22 @@
-div.trabalho{
+
+.trabalho{
     background-color: rgb(255, 255, 255);
     color: brown;
     border: 1px solid;
     padding: 10px;
     box-shadow: 5px 10px #dd9595;
+    display: inline-block;
+    list-style-type: none;
+    margin: 10px;
+    height: auto;
+
+
 }
 .título{
     margin:10px;
+    width: 300px;
 }
 .link{
     margin: 10px;
+    width: 300px;
 }
