@@ -20,35 +20,30 @@
   <p style="font-size:70px">
     <FONT FACE="Sofia">
       <font color=#4E2F2F>
-        <form method="post" action="https://api.staticforms.xyz/submit">
-          <input type="hidden" name="accessKey" value="3ad42665-ed07-4de1-853f-f608e3c02a10">
-          <input type="hidden" name="redirectTo" value="https://lilicefn.github.io/portf-lio/contato.html">
+        <form method="post" action="https://formspree.io/f/xovqebqj" enctype="text/plain">
             <P>Contato</P>
           </h2 class="cont">
           <label for="Nome">Nome</label>
-          <input type="text" name="Nome">
+          <input type="text" name="Nome"required>
           <br>
           <label for="E-mail">E-mail</label>
-          <input type="email" name="E-mail">
-          <br>
-          <label for="data">Data de nascimento</label>
-          <input type="date" name="data" min="1950-01-01" max="2024-01-01">
+          <input type="email" name="E-mail"required>
           <br>
           <label for="telefone">Telefone</label>
-          <input type="tel" name="tel" placeholder="(XX)XXXXX-XXXX">
+          <input type="tel" name="tel" id="tel" placeholder="(XX)XXXXX-XXXX" required>
           <br>
           <label for="Perfil">Perfil no IFSP-Salto</label>
-          <select name="Perfil"><p>Perfil</p>
+          <select name="Perfil" id="Perfil" required><p>Perfil</p>
             <option value="Aluno"> Aluno</option>
             <option value="Servidor"> Servidor</option>
             <option value="Professor"> Professor(a)</option>
           </select>
           <BR>
           <label for="Comentário">Comentário</label>
-          <textarea rows="1"></textarea>
+          <textarea rows="1" name="Comentário" id="Comentário" required></textarea>
           <br>
           <br>
-          <button type="submit" name="Enviar">Enviar</button>
+          <button type="submit" name="Enviar" id="Enviar">Enviar</button>
           </h2>
         </form>
 </body>
