@@ -10,7 +10,8 @@ form {
     border: none;
     background-color: #ffffff;
     opacity: 1;
-    width: 350px;
+    width: 400px;
+    height: 350px;
     display: flex;
     justify-content: center;
     align-items: center;

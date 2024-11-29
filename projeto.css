@@ -20,3 +20,9 @@
     margin: 10px;
     width: 300px;
 }
+.lista{
+    display: flex;
+    flex-direction:initial;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
